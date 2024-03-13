@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+#section{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+#url{
+    padding: 10px 40px;
+    border-radius: 10px;
+
+}
+#sumbit{
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+@media (min-width:400px) and (max-width:700px){
+    #section{
+        background-color: blue;
+    }
+
+}
+@media (min-width:400px) and (max-width:500px){
+    h1{
+        color: rgb(69, 203, 69);
+        background-color: snow;
+    }
+}
